@@ -13,7 +13,7 @@ def set_alarm(alarm_time):
     
     while is_running:
         current_time = datetime.datetime.now().strftime("%H:%M:%S")
-        print("Current Time: " + current_time, end='\r')
+        # print("Current Time: " + current_time, end='\r')
 
         if current_time == alarm_time:
             print("⏰ Wake Up!")
